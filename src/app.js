@@ -1,16 +1,16 @@
 function suma(a, b) {
-    return a + b;
+  return a + b;
 }
 
 function agregarItem(texto = 'Nuevo item') {
-    if (!texto || texto.trim() === '') {
-        texto = 'Nuevo item';
-    }
-    const lista = document.getElementById('listas');
-    const nuevoItem = document.createElement('li');
-    nuevoItem.textContent = texto;
-    lista.appendChild(nuevoItem);
-    return nuevoItem;
+  if (!texto || texto.trim() === '') {
+    texto = 'Nuevo item';
+  }
+  const lista = document.getElementById('listas');
+  const nuevoItem = document.createElement('li');
+  nuevoItem.textContent = texto;
+  lista.appendChild(nuevoItem);
+  return nuevoItem;
 }
 
-console.log("App lista")
+console.log('App lista');

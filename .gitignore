@@ -1,9 +1,37 @@
-{
-    "const suma = require('../app');
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
 
-    describe('suma', () => {
-        it('debe sumar dos números', () => {
-            expect(suma(1, 2)).toBe(3);
-        });
-    }); 
-}
+# Build / output
+dist/
+build/
+.next/
+out/
+
+# Tests / coverage
+coverage/
+.vitest/
+jest.config.cjs
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# IDEs / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Otros
+*.tgz
+*.zip
