@@ -1,37 +1,14 @@
-# Node
+# Dependencies
 node_modules/
+
+# Logs
+*.log
 npm-debug.log*
-yarn-error.log
-pnpm-lock.yaml
-package-lock.json
-yarn.lock
 
-# Build / output
-dist/
-build/
-.next/
-out/
-
-# Tests / coverage
-coverage/
-.vitest/
-jest.config.cjs
-
-# Env
-.env
-.env.local
-.env.*.local
-
-# IDEs / OS
-.vscode/
-.idea/
+# OS files
 .DS_Store
 Thumbs.db
 
-# Logs
-logs/
-*.log
-
-# Otros
-*.tgz
-*.zip
+# IDE
+.vscode/
+.idea/
