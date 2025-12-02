@@ -1,4 +1,4 @@
 function suma(a, b) {
-    return a + b;
+  return a + b;
 }
-console.log("App lista")
+console.log("App lista");
