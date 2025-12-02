@@ -1,0 +1,9 @@
+{
+    "const suma = require('../app');
+
+    describe('suma', () => {
+        it('debe sumar dos números', () => {
+            expect(suma(1, 2)).toBe(3);
+        });
+    }); 
+}
